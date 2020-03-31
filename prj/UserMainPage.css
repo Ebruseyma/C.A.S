@@ -1,0 +1,93 @@
+﻿
+.main {
+    background-image: radial-gradient(circle, gray, black, white);
+    padding: 5px;
+    height:auto;
+}
+
+    .main .first {
+        width:auto;      
+    }
+
+        .main .first h1 {   
+            text-align: center;
+
+        }
+
+        .main .first .first_border {
+            width: 300px;
+            height: 100px;
+            padding: 50px;
+            margin-left: 15px;
+            margin-top: 65px;
+            border: 3px solid black;
+            float: left;
+            background-image: url('img/indir.jpg');
+            background-repeat:repeat;
+        }
+
+
+        .main .first .info {
+            float: left;
+            padding: 10px;
+            margin: 50px;
+            text-align: left;
+        }
+
+
+.checked {
+    color: orange;
+}
+
+.button1 {
+    float: right;
+}
+
+.btn {
+    border: none;
+    color: white;
+    padding: 14px 40px;
+    cursor: pointer;
+    float: right;
+    margin-right: 50px;
+    margin-bottom:20px;
+}
+
+.add {
+    background-color: #2196F3;
+    border-radius: 20px;
+}
+    /* Blue */
+    .add:hover {
+        background: #0b7dda;
+    }
+
+
+.main .second {
+    width:auto;
+}
+
+    .main .second .second_border {
+        width: 300px;
+        height: 100px;
+        padding: 50px;
+        margin-left: 15px;
+        margin-top: 125px;
+        border: 3px solid black;
+        float: left;
+        background-image: url('img/iindir.jpg');
+    }
+
+    .main .second .info_one {
+        float: left;
+        padding: 10px;
+        margin: 50px;
+    }
+
+.checked {
+    color: orange;
+}
+
+.button2 {
+    float: right;
+}

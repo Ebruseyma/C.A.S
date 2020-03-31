@@ -36,10 +36,11 @@
 }
 
 .list {
+    background-image: radial-gradient(circle, gray, white);
     max-width: 100%;
     width: 77%;
-    height: 730px;
-    background-color: forestgreen;
+    height:auto;
+    background-color: lightgray;
     margin-top: 53px;
     margin-left: 3.2%;
     float: left;

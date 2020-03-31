@@ -1,30 +1,8 @@
-﻿<%@ Page Title="Main Page - C.A.S" Language="C#" MasterPageFile="~/User.Master" AutoEventWireup="true" CodeBehind="MainPage.aspx.cs" Inherits="Coiffeur_Appointment_System.MainPage" %>
+﻿<%@ Page Title="Main Page - C.A.S" Language="C#" MasterPageFile="~/MemberUser.Master" AutoEventWireup="true" CodeBehind="MemberMain.aspx.cs" Inherits="Coiffeur_Appointment_System.MemberMain" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <style type="text/css">
-        .auto-style7 {
-            width: 100%;
-            height: 355px;
-        }
-        .auto-style9 {
-            height: 253px;
-        }
-        .auto-style10 {
-            height: 253px;
-            width: 417px;
-        }
-        .auto-style11 {
-            width: 417px;
-        }
-        .auto-style12 {
-            text-align: right;
-        }
-        .auto-style13 {
-            height: 89px;
-        }
-    </style>
 </asp:Content>
-<asp:Content ID="Content2" runat="server" contentplaceholderid="ContentPlaceHolder1">
-                <table class="auto-style1">
+<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <table class="auto-style1">
                     <tr>
                         <td class="auto-style13">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <asp:Label ID="Label11" runat="server" Font-Size="50px" Height="53px" Text="Coiffeurs" Width="201px"></asp:Label>
@@ -64,24 +42,4 @@
                         </td>
                     </tr>
                 </table>
-            </asp:Content>
-<asp:Content ID="Content3" runat="server" contentplaceholderid="ContentPlaceHolder3">
-                <table class="auto-style1">
-                    <tr>
-                        <td class="auto-style2">
-                            <asp:Label ID="Label1" runat="server" CssClass="navLabel" Text="Search:" Font-Size="X-Large"></asp:Label>
-                        </td>
-                        <td class="auto-style4">
-                            <asp:TextBox ID="TextBox1" runat="server" Width="250px"></asp:TextBox>
-                        </td>
-                        <td class="auto-style3">
-                            <asp:Label ID="Label2" runat="server" Text="Log In" CssClass="navLabel" Font-Size="Larger"></asp:Label>
-&nbsp; 
-                            <asp:Label ID="Label4" runat="server" CssClass="navLabel" Font-Size="Larger" Text="|"></asp:Label>
-                            &nbsp;
-                            <asp:Label ID="Label3" runat="server" Text="Sign Up" CssClass="navLabel" Font-Size="Larger"></asp:Label>
-                        </td>
-                    </tr>
-                </table>
-            </asp:Content>
-
+</asp:Content>

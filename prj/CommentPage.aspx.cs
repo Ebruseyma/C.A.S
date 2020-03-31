@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Coiffeur_Appointment_System
 {
-    public partial class deneme1 : System.Web.UI.MasterPage
+    public partial class CommentPage : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

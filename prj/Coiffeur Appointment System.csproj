@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Content Include="img\dribble_04_1x.jpg" />
     <Content Include="img\iindir.jpg" />
     <Content Include="img\images.jpg" />
@@ -78,9 +79,43 @@
     <Content Include="UserAppointmentView.css" />
     <Content Include="UserMainPage.aspx" />
     <Content Include="UserMainPage.css" />
+=======
+    <Content Include="AppointmentPage.aspx" />
+    <Content Include="CantactPage.aspx" />
+    <Content Include="CommentPage.aspx" />
+    <Content Include="infoPage.aspx" />
+    <Content Include="MainCss.css" />
+    <Content Include="MainPage.aspx" />
+    <Content Include="MemberMain.aspx" />
+    <Content Include="ProcedurePage.aspx" />
+    <Content Include="SignUpPage.aspx" />
+    <Content Include="UserAppointmentPage.aspx" />
+    <Content Include="UserLogIn.aspx" />
+>>>>>>> 0c01671f2128c2659233a52857feff439ce53ca4
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppointmentPage.aspx.cs">
+      <DependentUpon>AppointmentPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AppointmentPage.aspx.designer.cs">
+      <DependentUpon>AppointmentPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CantactPage.aspx.cs">
+      <DependentUpon>CantactPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CantactPage.aspx.designer.cs">
+      <DependentUpon>CantactPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CommentPage.aspx.cs">
+      <DependentUpon>CommentPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CommentPage.aspx.designer.cs">
+      <DependentUpon>CommentPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="infoPage.aspx.cs">
       <DependentUpon>infoPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -95,7 +130,42 @@
     <Compile Include="MainPage.aspx.designer.cs">
       <DependentUpon>MainPage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="MemberMain.aspx.cs">
+      <DependentUpon>MemberMain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberMain.aspx.designer.cs">
+      <DependentUpon>MemberMain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberUser.Master.cs">
+      <DependentUpon>MemberUser.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberUser.Master.designer.cs">
+      <DependentUpon>MemberUser.Master</DependentUpon>
+    </Compile>
+    <Compile Include="NonNavbar.Master.cs">
+      <DependentUpon>NonNavbar.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NonNavbar.Master.designer.cs">
+      <DependentUpon>NonNavbar.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ProcedurePage.aspx.cs">
+      <DependentUpon>ProcedurePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProcedurePage.aspx.designer.cs">
+      <DependentUpon>ProcedurePage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SignUpPage.aspx.cs">
+      <DependentUpon>SignUpPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUpPage.aspx.designer.cs">
+      <DependentUpon>SignUpPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="User.Master.cs">
       <DependentUpon>User.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -103,6 +173,7 @@
     <Compile Include="User.Master.designer.cs">
       <DependentUpon>User.Master</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="UserAppointmentView.aspx.cs">
       <DependentUpon>UserAppointmentView.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -116,6 +187,21 @@
     </Compile>
     <Compile Include="UserMainPage.aspx.designer.cs">
       <DependentUpon>UserMainPage.aspx</DependentUpon>
+=======
+    <Compile Include="UserAppointmentPage.aspx.cs">
+      <DependentUpon>UserAppointmentPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserAppointmentPage.aspx.designer.cs">
+      <DependentUpon>UserAppointmentPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserLogIn.aspx.cs">
+      <DependentUpon>UserLogIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserLogIn.aspx.designer.cs">
+      <DependentUpon>UserLogIn.aspx</DependentUpon>
+>>>>>>> 0c01671f2128c2659233a52857feff439ce53ca4
     </Compile>
     <Compile Include="UserNonFilter.Master.cs">
       <DependentUpon>UserNonFilter.Master</DependentUpon>
@@ -126,6 +212,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="NonNavbar.Master" />
+    <Content Include="MemberUser.Master" />
     <None Include="packages.config" />
     <Content Include="User.Master" />
     <Content Include="UserNonFilter.Master" />

@@ -11,8 +11,17 @@ namespace Coiffeur_Appointment_System
 {
 
 
-    public partial class infoPage
+    public partial class MemberMain
     {
+
+        /// <summary>
+        /// Label11 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label11;
 
         /// <summary>
         /// DataList1 control.

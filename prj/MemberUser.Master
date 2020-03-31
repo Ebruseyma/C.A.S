@@ -34,7 +34,10 @@
         .auto-style6 {
             text-align: center;
         }
-    </style>
+        .auto-style7 {
+            text-align: left;
+        }
+        </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -43,7 +46,7 @@
             <div class="title">Coiffeur Appointment System</div>
             <div class="nav"><asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
                 <table class="auto-style1">
-                    <tr>
+                    <tr class="auto-style7">
                         <td class="auto-style2">
                             <asp:Label ID="Label1" runat="server" CssClass="navLabel" Text="Search:" Font-Size="X-Large"></asp:Label>
                         </td>
@@ -51,12 +54,20 @@
                             <asp:TextBox ID="TextBox1" runat="server" Width="250px"></asp:TextBox>
                         </td>
                         <td class="auto-style3">
-                            <asp:Label ID="Label2" runat="server" Text="Log In" CssClass="navLabel" Font-Size="X-Large"></asp:Label>
-&nbsp;  
-                            <asp:Label ID="Label11" runat="server" CssClass="navLabel" Font-Size="Larger" Text="|"></asp:Label>
-                            &nbsp;
-                            <asp:Label ID="Label3" runat="server" Text="Sign Up" CssClass="navLabel" Font-Size="X-Large"></asp:Label>
-                        </td>
+                            <asp:Label ID="Label2" runat="server" Text="[User Name]" CssClass="navLabel" Font-Size="X-Large"></asp:Label>
+                            &nbsp;<asp:Label ID="Label11" runat="server" CssClass="navLabel" Font-Size="Larger" Text="|"></asp:Label>
+                            &nbsp;&nbsp;
+                            <div class="dropdown">
+                                <button class="dropbtn">
+                                    <asp:Label ID="Label12" runat="server" Text="Menu" Font-Size="X-Large"></asp:Label>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="#" >Appointments</a>
+                                    <a href="#" >Settings</a>
+                                    <a href="#" >Sign out</a>
+                                </div>
+                            </div>
+                            &nbsp; </td>
                     </tr>
                 </table>
             </asp:ContentPlaceHolder></div>
